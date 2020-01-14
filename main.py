@@ -16,7 +16,7 @@ def about():
 
 @app.route('/contact')
 def contact():
-  return render_template('contact.html', phone = "123")
+  return render_template('contact.html', phone = "69420")
 
 if __name__ == '__main__':
   app.run(threaded=True, port=5050, debug=True)
